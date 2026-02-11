@@ -70,6 +70,7 @@ A[TEST] --> B[If you see boxes + arrow, Mermaid works]
 
 
 
+### 4. Decision tree and customer group assignment
 
 
 | Customer Group | Perk | Why It Matters |
