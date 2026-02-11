@@ -35,6 +35,35 @@ TravelTide provides four tables:
 1. **Identify active users:** filter for users with more than 7 sessions since January 4, 2023; reduce the dataset from 5M+ sessions to 5,998 active users.
 2. **Explore the data:** analyze patterns and define customer groups that can be matched to the most relevant perk.
 
+```mermaid
+flowchart LR
+
+classDef big fill:#E7EAFF,stroke:#A8B0D6,color:#111827,strokeWidth:1;
+classDef perk fill:#E7EAFF,stroke:#A8B0D6,color:#111827,strokeWidth:1;
+classDef anchor fill:transparent,stroke:transparent,color:transparent;
+
+%% anchors to enforce 2 columns
+L0[" "]:::anchor --> R0[" "]:::anchor
+linkStyle 0 stroke:transparent;
+
+%% ====== LEFT COLUMN ======
+subgraph LEFTCOL[" "]
+direction TB
+
+subgraph L1[" "]
+direction LR
+L1A["frequent traveler (booking >= 5)"]:::big --> L1P1["free checked bag"]:::perk
+L1A --> L1P2["exclusive discounts"]:::perk
+end
+
+subgraph L2[" "]
+direction LR
+L2A["high spenders (amount spend > 7000)"]:::big --> L2P1["1 night free hotel"]:::perk
+L2A --> L2
+
+
+```
+
 Rule Set for User Group Creation
 
 | Segment | Characteristic |
