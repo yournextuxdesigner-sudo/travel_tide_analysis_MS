@@ -36,30 +36,43 @@ TravelTide provides four tables:
 2. **Explore the data:** analyze patterns and define customer groups that can be matched to the most relevant perk.
 
 ```mermaid
-flowchart LR
+%%{init: {"theme":"base","themeVariables":{
+  "primaryColor":"#E9EEF9",
+  "primaryTextColor":"#111827",
+  "primaryBorderColor":"#9CA3AF",
+  "clusterBkg":"transparent",
+  "clusterBorder":"transparent"
+}}}%%
+flowchart TB
 
-classDef big fill:#E7EAFF,stroke:#A8B0D6,color:#111827,strokeWidth:1;
-classDef perk fill:#E7EAFF,stroke:#A8B0D6,color:#111827,strokeWidth:1;
-classDef anchor fill:transparent,stroke:transparent,color:transparent;
-
-%% anchors to enforce 2 columns
-L0[" "]:::anchor --> R0[" "]:::anchor
-linkStyle 0 stroke:transparent;
-
-%% ====== LEFT COLUMN ======
-subgraph LEFTCOL[" "]
+subgraph CS["customer segment"]
 direction TB
-
-subgraph L1[" "]
-direction LR
-L1A["frequent traveler (booking >= 5)"]:::big --> L1P1["free checked bag"]:::perk
-L1A --> L1P2["exclusive discounts"]:::perk
+A["frequent traveler (booking >= 5)"] --> A1["free checked bag"]
+A --> A2["exclusive discounts"]
+B["high spenders (amount spend > 7000)"] --> B1["1 night free hotel"]
+B --> B2["exclusive discounts"]
+C["age group"] --> C1["free hotel meal"]
+C --> C2["free checked bag (35+)"]
+C --> C3["no cancellation fees (65+)"]
+D["long distance flyer (short, medium, long)"] --> D1["free checked bag"]
+D --> D2["1 night free hotel"]
+E["family status (married, kids)"] --> E1["free hotel meal"]
+E --> E2["no cancellation fees"]
 end
 
-subgraph L2[" "]
-direction LR
-L2A["high spenders (amount spend > 7000)"]:::big --> L2P1["1 night free hotel"]:::perk
-L2A --> L2
+subgraph BB["booking behaviour"]
+direction TB
+F["early vs last minute booking"] --> F1["exclusive discounts (early booking)"]
+F --> F2["free checked bag (early booking)"]
+F --> F3["free checked bag (last minute booking)"]
+F --> F4["free hotel meal (last minute booking)"]
+G["single vs group travelers"] --> G1["exclusive discounts (single)"]
+G --> G2["free checked bag (single)"]
+G --> G3["free hotel meal (group)"]
+G --> G4["1 free hotel (group)"]
+H["cancellation (same-day, last minute, moderate, early cancels)"] --> H1["no perks (same-day)"]
+H --> H2["no cancellation fees (last-minute)"]
+end
 
 
 ```
