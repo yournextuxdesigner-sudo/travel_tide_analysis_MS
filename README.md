@@ -64,16 +64,10 @@ Rule Set for User Group Creation
 
 ### 4. Decision tree and customer group assignment
 
+```mermaid
 flowchart TB
-A[Frequent Traveler] -->|yes| B[Long Distance]
-A -->|no| C[Casual Traveler]
-B -->|yes| D[Free Checked Bag / Mile Master]
-B -->|no| E[Last Minute Booker]
+A[TEST] --> B[If you see boxes + arrow, Mermaid works]
 
-
-
-flowchart TB
-A[TEST] --> B[działa]
 
 
 
