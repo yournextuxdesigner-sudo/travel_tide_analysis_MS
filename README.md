@@ -13,6 +13,36 @@ Mastery Project  - Gabriel Holysz
 
 
 
+
+| Segment | Characteristic |
+| --- | --- |
+| Age Group | 16–24, 25–34, 35–44, 45–54, 55–64, 65+ |
+| Travel Frequency | frequent traveler (>= 5 bookings), casual traveler (2–4 bookings), low-frequent traveller (1 booking) |
+| Spend | High spender (total cost > 7000 USD) |
+| Flight Distance | short-haul-flyer (avg < 500 miles), medium-haul-flyer (avg 500–2500 miles), long-haul-flyer (avg > 2500 miles) |
+| Booking Time | Last minute booker (< 7 days), Early booker (7–60 days), Moderate early booker (60–180 days), Super early booker (> 180 days) |
+| Cancellation | Same-Day Cancellers, Last-Minute Cancellers (1–7 days), Moderate Cancellers (8–30 days), Early Cancellers (30+ days), No Cancellation |
+| Travel Party | Solo traveler, Family/Group traveler, Solo and group traveler |
+| Family | married, children, not married, children, married, no children, not married, no children |
+
+
+
+| Customer Group | Perk | Why It Matters |
+| --- | --- | --- |
+| Mile Master (Long distance, frequent flyer) | Free Checked Bag | Encourages ongoing loyalty and reduces booking friction. |
+| High Spenders (> 7000 USD on total trips) | Free Checked Bags, Hotel Nights with Flight | Reinforces a premium experience without appearing cheap |
+| Spontaneous Globetrotter (Frequent Flyer, Last-Minute Booker) | No Cancellation Fees | Provides flexibility for spontaneous travelers |
+| Jet Sprint Nomad (Frequent Flyer, Early Booker) | Real-Time Deals, Flexibility | Inzentivizes advance planning |
+| Group Traveler | Free Meals, Group Discounts | Larger groups appreciate accomodation perks |
+| Family Traveler (Traveler has Children) | Free Meals, Group Discounts | Helps with family budgeting and convenience |
+| Senior Traveler (age >=65) | No Cancellation Fees | Older travelers value flexibility |
+| Adaptive Explorer (Frequent Flyer, Last-Minute Cancellations) | No Cancellation Fees | Supports Flexibility |
+| Next-Gen Wanderer (age 16-24) | Free Hotel Meal | Young Travelers are Price Sensitive |
+| Business Traveler (Middle-Aged, Solo Traveler) | No Cancellation Fees | Business travelers value flexibility |
+
+
+
+
 ````sql
 /*filter for sessions starting after 2023-01-04 and data corrections*/
 
