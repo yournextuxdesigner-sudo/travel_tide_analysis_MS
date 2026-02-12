@@ -153,7 +153,8 @@ K -->|no| R7[No Cancellation Fees - Business Traveler]
 
 ### 5. Segmentation of customers into groups After analysis: 10 groups have been built
 
-[IMG]
+![Screenshot 2026-02-12 at 17.43.33](img/Screenshot%202026-02-12%20at%2017.43.33.png)
+
 
 Others include all travelers who could not be assigned to a specific group Metrics used for building the groups: session behaviour, trip behaviour, demographics
 
@@ -581,6 +582,8 @@ For CSV file klick: [hier](travel_tide.csv)
 ![Slide 3](img/TravelTide%20(3).png)
 
 ![Slide 4](img/TravelTide%20(4).png)
+Tableau workbook (interactive): [Open in Tableau Public](https://public.tableau.com/views/travel_tide_story/TravelTide?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 
 
