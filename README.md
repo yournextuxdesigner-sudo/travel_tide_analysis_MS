@@ -570,6 +570,23 @@ user_based_perk as (
 For CSV file klick: [hier](travel_tide.csv)
 
 
+## Tableau Story Slides
+
+![Slide 1](img/TravelTide%20(1).png)
+
+![Slide 5](img/TravelTide%20(5).png)
+
+![Slide 2](img/TravelTide%20(2).png)
+
+![Slide 3](img/TravelTide%20(3).png)
+
+![Slide 4](img/TravelTide%20(4).png)
+
+
+
+
+
+
 
 
 
