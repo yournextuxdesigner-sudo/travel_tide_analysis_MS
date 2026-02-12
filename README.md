@@ -585,6 +585,10 @@ For CSV file klick: [hier](travel_tide.csv)
 Tableau workbook (interactive): [Open in Tableau Public](https://public.tableau.com/views/travel_tide_story/TravelTide?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
+Presentation (Keynote): [TravelTide Presentation.key](TravelTide%20Presentation.key)
+
+
+
 
 
 
